@@ -59,6 +59,7 @@ const GlobalStyle = createGlobalStyle`
     color: ${props => props.theme.textColor};
   }
   a {
+    color: black;
     text-decoration: none;
     &:visited {
       color: inherit;
